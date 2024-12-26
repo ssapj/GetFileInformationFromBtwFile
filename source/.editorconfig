@@ -1,0 +1,19 @@
+﻿[*.{cs,vb}]
+
+# IDE0003: 修飾子を削除
+dotnet_style_qualification_for_property = false
+
+# IDE0003: 修飾子を削除
+dotnet_style_qualification_for_field = false
+
+# IDE0130: Namespace がフォルダー構造と一致しません
+dotnet_style_namespace_match_folder = false
+
+# IDE0003: 修飾子を削除
+dotnet_style_qualification_for_method = false
+
+# IDE0003: 修飾子を削除
+dotnet_diagnostic.IDE0003.severity = none
+
+# IDE0100: 冗長な等値を削除
+dotnet_diagnostic.IDE0100.severity = none
